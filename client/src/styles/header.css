@@ -1,0 +1,43 @@
+.Header{
+    width:100%;
+    padding: 0 30px;
+    display:flex;
+    align-items: center;
+    border-bottom: solid 2px #d3d3d3;
+}
+
+.menu-option{
+    flex:1;
+    color:gray;
+    padding: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    cursor:pointer;
+    
+}
+
+
+.menu-option:hover{
+    background-color:#eae7e7;
+}
+
+.menu-option a{
+    padding: 10px 50px;
+
+}
+
+.menu-option a{
+    color:#1877F2;
+}
+
+@media screen and (max-width:700px){
+    .menu-option a{
+        color: gray;
+        padding: 10px 12px
+    }
+    .Header{
+        padding: 0 10px;
+    }
+}
+

@@ -1,0 +1,132 @@
+.Homepage{
+    width: 100%;
+    background-color: #dddddd;
+    display:flex;
+    justify-content: center;
+}
+
+.main-area{
+    width:45%;
+    height: 100%;
+    padding: 10px 50px;
+}
+.post{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top:10px;
+    background-color: white;
+    border-radius: 6px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.page-info{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile-pic{
+    display: flex;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start
+}
+.info p{
+    font-weight: bold;
+    font-size: 14px;
+}
+.info span{
+    font-size: 11px;
+    color: #a0a0a0;
+    margin-top: -1px;
+}
+
+.profile-pic{
+    
+}
+
+.profile-pic img{
+    width: 32px;
+    border-radius: 50%;
+    border: solid 3px #1877f2;
+}
+
+
+.caption{
+    padding: 0 14px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.post-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0px 7px 0 7px;
+    border-top: solid 2px rgb(213, 213, 213) ;
+}
+
+.post-image img{
+    width: 90%;
+
+}
+
+.call-to-action{
+    width: 100%;
+    background-color: #ebeaea;
+    border-top: solid 2px rgb(213, 213, 213) ;
+    border-bottom:solid 2px rgb(213, 213, 213);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px ;
+}
+.cta-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cta-button button{
+    border-style: none;
+    padding: 8px;
+    border-radius: 5px;
+    color:#201f1f;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #dcdada;
+}
+
+@media only screen and (max-width:800px) {
+    .main-area{
+      width:100%;
+    }
+   .top-section{
+       padding: 0 14px;
+   }
+}
+
+.social-count{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    margin:0 14px;
+    border-bottom: solid 2px rgb(192, 191, 191);
+}
+
+.engage-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+}
