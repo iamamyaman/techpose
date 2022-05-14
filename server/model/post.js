@@ -13,4 +13,4 @@ const postSchema = new Schema({
 })
 
 
-module.exports = mongoose.model("task",postSchema);
+module.exports = mongoose.model("post",postSchema);

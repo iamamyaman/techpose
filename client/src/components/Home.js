@@ -12,7 +12,7 @@ import userImage from "../../src/user.jpg";
 const Home = ()=>{
     const [data, setData] = useState()
     useEffect(function () {
-      const url = 'http://localhost:8000/api/tasks';
+      const url = 'http://localhost:8000/api/posts';
       fetch(url, {
          method: 'GET',
          headers: {

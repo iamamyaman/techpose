@@ -1,12 +1,12 @@
-const Task = require("../model/task")
+const Post = require("../model/post")
 const express = require('express');
 const router = express.Router();
 
 router.get('/',async(req,res)=>{
     try{
-        const tasks = await Task.find();
-        res.send(tasks);
-        console.log(tasks);
+        const posts = await Post.find();
+        res.send(posts);
+        console.log(posts);
     }
     catch(error){
         res.send(error)
